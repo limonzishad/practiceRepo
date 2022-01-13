@@ -1,3 +1,7 @@
+*{
+    margin:0;
+    padding:0;
+}
 body{
     margin:0;
     padding:0;
@@ -6,7 +10,6 @@ body{
 h1{
     text-align:center;
     font-size:45px;
-    font-family:'Share Tech Mono';
 }
 .firstSection{
     width:80%;
@@ -14,9 +17,9 @@ h1{
     margin-top:1%;
     margin-left:10%;
     margin-right:20%;
+    margin-bottom:3%;
     display:flex;
     background-color:#F9FBE7;
-    border-radius: 20px;
     padding:5% 0 5% 0;
 }
 .aboutDiv{
@@ -33,9 +36,41 @@ h1{
     height:500px;
 }
 .firstButton{
-    padding:10px 20px;
+    outline:0;
+    font-size: 20px;
+    font-weight: 700;
+    padding:5px 10px;
     color:white;
-    border-radius:10px;
-    background-color:#424242;
+    border:10px solid #388E3C;
+    background-color:#388E3C;
     font-weight:700;
+    cursor:pointer;
+    transition: 0.5s linear;
+}
+.firstButton:hover{
+    background-color:transparent;
+    color:#388E3C;
+}
+h1, h2, p, button{
+    font-family:'Operator Mono';
+    margin-top:3%;
+}
+.secondSection{
+    margin-top:1%;
+    margin-left:10%;
+    margin-right:10%;
+    background-color:#F9FBE7;
+}
+.divisionDiv{
+    width:100%;
+    margin:0 auto;
+    display:flex;
+}
+.divisions{
+    width:50%;
+    margin:3%;
+}
+.divisions img{
+    height: 150px;
+    width: 250px;
 }
