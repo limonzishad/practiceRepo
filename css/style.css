@@ -51,7 +51,7 @@ h1{
     background-color:transparent;
     color:#388E3C;
 }
-h1, h2, p, button{
+h1, h2, p, button, footer{
     font-family:'Operator Mono';
     margin-top:3%;
 }
@@ -59,6 +59,7 @@ h1, h2, p, button{
     margin-top:1%;
     margin-left:10%;
     margin-right:10%;
+    margin-bottom:5%;
     background-color:#F9FBE7;
 }
 .divisionDiv{
@@ -73,4 +74,12 @@ h1, h2, p, button{
 .divisions img{
     height: 150px;
     width: 250px;
+}
+footer{
+    background-color:#263238;
+    text-align:center;
+    padding:2%;
+}
+hr{
+    border:1px solid #F9FBE7;
 }
