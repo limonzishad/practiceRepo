@@ -3,3 +3,145 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #212121;
+}
+/* font */
+h2{
+    font-family: 'Operator Mono';
+    font-size: 60px;
+    color: white;
+}
+p{
+    font-family: 'Operator Mono';
+    text-align: justify;
+    color: white;
+    margin-top: 1%;
+}
+/* navigation bar */
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: cornflowerblue;
+}
+/* first section */
+.firstSection{
+    display: flex;
+    margin: 5% 10%;
+}
+.teamPic{
+    padding-left: 5%;
+}
+.readButton{
+    margin-top: 3%;
+    outline: none;
+    background-color: white;
+    padding: 2% 4%;
+    font-family: 'Operator Mono';
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid white;
+}
+.readButton:hover{
+    border: 5px solid #22bedd;
+    background-color: transparent;
+    color: white;
+}
+/* title animation */
+.titleAnimation{
+    position: relative;
+    white-space: nowrap;
+    color: transparent;
+}
+.titleAnimation::after{
+    content:'REAL MADRID CF';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #22bedd;
+    animation: title 5s linear infinite;
+}
+@keyframes title{
+    0%{
+        content: 'R|';
+    }
+    5%{
+        content: 'RE|';
+    }
+    10%{
+        content: 'REA|';
+    }
+    15%{
+        content: 'REAL|';
+    }
+    20%{
+        content: 'REAL |';
+    }
+    25%{
+        content: 'REAL M|';
+    }
+    30%{
+        content: 'REAL MA|';
+    }
+    35%{
+        content: 'REAL MAD|';
+    }
+    40%{
+        content: 'REAL MADR|';
+    }
+    45%{
+        content: 'REAL MADRI|';
+    }
+    50%{
+        content: 'REAL MADRID |';
+    }
+    55%{
+        content: 'REAL MADRID C|';
+    }
+    60%, 72%{
+        content: 'REAL MADRID CF|';
+    }
+    74%{
+        content: 'REAL MADRID C|';
+    }
+    76%{
+        content: 'REAL MADRID |';
+    }
+    78%{
+        content: 'REAL MADRI |';
+    }
+    80%{
+        content: 'REAL MADR |';
+    }
+    82%{
+        content: 'REAL MAD |';
+    }
+    84%{
+        content: 'REAL MA |';
+    }
+    86%{
+        content: 'REAL M |';
+    }
+    88%{
+        content: 'REAL |';
+    }
+    90%{
+        content: 'REA|';
+    }
+    92%{
+        content: 'RE|';
+    }
+    94%{
+        content: 'R|';
+    }
+    96%{
+        content: 'R|';
+    }
+    98%{
+        content: '|';
+    }
+    100%{
+        content: '';
+    }
+
+}
