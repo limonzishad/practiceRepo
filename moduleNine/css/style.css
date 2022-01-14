@@ -20,14 +20,13 @@ main{
     width: 870px;
     height: 680px;
     top: 130px;
-    right: 285px;
     bottom: 411px;
-    left: 285px;
     border-radius: 5px;
 }
 /* top players */
 .topPlayers{
     margin-left: 35px;
+    margin-bottom: 30px;
 }
 .sectionTitle{
     color: #562EFF;
@@ -54,6 +53,7 @@ main{
     margin-left: 16px;
 }
 hr{
+    margin: 0 35px;
     border: 1px solid #D1D1D1;
 }
 /* top blogs */
