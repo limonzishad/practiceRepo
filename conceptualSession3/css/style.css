@@ -6,10 +6,20 @@
     box-sizing: border-box;
     font-family: 'Fjalla One', sans-serif;
 }
+a{
+    text-decoration: none;
+}
 /* navbar */
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 50px;
 }
 .navigation{
     display: flex;
+}
+.navigation li{
+    list-style: none;
+    margin: 0 15px;
 }
