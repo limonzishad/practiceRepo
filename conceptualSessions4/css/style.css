@@ -1,0 +1,15 @@
+/* utilities */
+*{
+    font-family: 'Operator Mono';
+}
+a{
+    text-decoration: none;
+}
+/* button color */
+.customButton{
+    background-image: linear-gradient(90deg, #2937f0, #9f1ae2);
+}
+/* title color */
+.titleColor{
+    color: #2937f0;
+}
