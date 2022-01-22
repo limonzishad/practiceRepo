@@ -13,3 +13,7 @@ a{
 .titleColor{
     color: #2937f0;
 }
+/* icon size */
+.iconSize{
+    font-size: 50px;
+}
