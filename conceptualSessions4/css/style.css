@@ -17,3 +17,12 @@ a{
 .iconSize{
     font-size: 50px;
 }
+.bgImage{
+    background-image: url(../images/background.png);
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.45);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+
+}
