@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>myBank</title>
+    <!-- vanilla css -->
+    <link rel="stylesheet" href="./css/style.css">
     <!-- tailwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
@@ -13,11 +15,24 @@
 <body>
     <!-- header -->
     <header>
-
+        <h1 class="text-center text-5xl my-8">Welcome to <span class="text-purple-600 font-semibold">myBank</span></h1>
     </header>
     <!-- main -->
     <main>
-
+        <!-- login section -->
+        <section class="w-3/4 mx-auto bg-fuchsia-50 py-8 text-center border rounded-lg">
+            <div class="w-2/4 mx-auto">
+                <input type="text" class="w-3/4 p-1 border border-fuchsia-500 rounded-full"
+                    placeholder="enter your email address">
+            </div>
+            <br>
+            <div class="w-2/4  mx-auto">
+                <input type="password" class="w-3/4 p-1 border border-fuchsia-500 rounded-full"
+                    placeholder="enter your password">
+            </div>
+            <br>
+            <button class="w-1/4 border border-fuchsia-500 rounded-full p-" onclick="">Submit</button>
+        </section>
     </main>
     <!-- footer -->
     <footer>
